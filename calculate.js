@@ -1,5 +1,4 @@
-function getRandomNumber(tagId) { 
-  const maxNumber = 7
+function getRandomNumber(tagId,maxNumber) { 
   let randomValue = getRandomNumberInt(maxNumber);
   document.getElementById(tagId).innerHTML = randomValue;
 }
