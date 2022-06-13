@@ -2,4 +2,4 @@
 
 ## Functions
 
-1 - Get ramdom value between 0 and 6 [Click here to demo](https://rumina.github.io/pet-app/)
+1 - Get ramdom value filled in one of six box [Click here to demo](https://rumina.github.io/pet-app/)

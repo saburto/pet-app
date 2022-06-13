@@ -1,8 +1,8 @@
-function getRandomNumber(tagId,maxNumber) { 
-  let randomValue = getRandomNumberInt(maxNumber);
+function getInputArray(className,tagId) { 
+  let randomValue = getRandomData(className);
   document.getElementById(tagId).innerHTML = randomValue;
 }
 
-function getRandomNumberInt(max) { 
-  return Math.floor(Math.random() * max);
+function getRandomData(className) { 
+  return [...document.querySelectorAll(className)][Math.floor(Math.random()*[...document.querySelectorAll(className)].length)].value;
 }
