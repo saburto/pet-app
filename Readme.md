@@ -1,4 +1,6 @@
-# Pet App [Click here to demo](https://rumina.github.io/pet-app/)
+# Pet App
+
+### [Click here to demo](https://rumina.github.io/pet-app/)
 
 ## Functions
 
